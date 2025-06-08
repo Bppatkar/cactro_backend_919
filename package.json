@@ -1,12 +1,23 @@
 {
-  "name": "backend_919",
+  "name": "bhanu-pratap-patkar",
   "version": "1.0.0",
-  "description": "",
+  "description": "My professional resume, viewable directly from the terminal via npx.",
   "main": "index.js",
+  "bin": {
+    "bhanu-pratap-patkar": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "resume",
+    "cli",
+    "npm",
+    "linkedin"
+  ],
+  "author": "Bhanu Pratap Patkar",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
 }
